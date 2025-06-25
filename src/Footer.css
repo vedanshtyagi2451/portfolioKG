@@ -1,0 +1,18 @@
+.footer {
+  background-color: #111;
+  border-top: 2px solid #00ffcc;
+}
+
+.icon-link {
+  color: white;
+  margin: 0 10px;
+  transition: color 0.3s ease-in-out;
+}
+
+.icon-link:hover {
+  color: #00ffcc;
+}
+
+footer p, footer h5 {
+  margin: 0;
+}

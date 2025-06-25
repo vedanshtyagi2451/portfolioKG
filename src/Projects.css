@@ -1,0 +1,33 @@
+/* Projects.css */
+
+.project-card {
+  border: 2px solid transparent;
+  background: #1e1e2f; /* deep background */
+  color: white;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 700px;
+  border-radius: 12px;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 0 10px rgba(0, 0, 64, 0.3);
+}
+
+.project-card:hover {
+  border: 2px solid #001f4d; /* navy blue */
+  box-shadow: 0 0 20px #001f4d;
+  transform: scale(1.02);
+  animation: borderPulse 1.5s infinite;
+}
+
+/* Optional: glow animation */
+@keyframes borderPulse {
+  0% {
+    box-shadow: 0 0 8px #001f4d;
+  }
+  50% {
+    box-shadow: 0 0 16px #001f4d;
+  }
+  100% {
+    box-shadow: 0 0 8px #001f4d;
+  }
+}

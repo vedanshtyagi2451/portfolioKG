@@ -1,0 +1,11 @@
+.my-custom-style{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+    background-color: black;
+}
+.textstyle{
+    font-size: 20px;
+    color: white;
+}

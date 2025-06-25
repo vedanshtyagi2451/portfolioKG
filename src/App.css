@@ -1,0 +1,29 @@
+.app-container {
+  margin-top: 56px; /* if navbar is fixed at top */
+  background-color: black;
+}
+body {
+  background-color: black;
+  color: white; /* Optional: sets all text to white */
+  
+}
+.banner {
+  width: 100vw;
+  height: 100vh;
+  background: #000; /* or any background image/color */
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 0 5%;
+  overflow: hidden;
+}
+
+.banner img {
+  max-width: 100%;
+  height: auto;
+}
+h2{
+ margin-left: 600px;
+ color: white;
+ background-color: black;
+}
