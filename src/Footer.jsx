@@ -11,7 +11,7 @@ function Footer() {
         <Row className="align-items-center text-center">
           <Col md={4} className="mb-3 mb-md-0">
             <h5>Contact</h5>
-            <p><MdEmail /> kanika@example.com</p>
+            <p><MdEmail /> kanika.garg.ug24@nsut.ac.in</p>
           </Col>
 
           <Col md={4} className="mb-3 mb-md-0">
